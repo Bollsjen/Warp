@@ -1,0 +1,21 @@
+name: Warp
+author: Magnus Boll Jensen (Bollsjen)
+main: dk.bollsjen.warp.Warp
+version: 1.0.0
+api-version: 1.18
+commands:
+  warp:
+    usage: /<command> <name>
+    description: Teleports you to a location
+  setWarp:
+    usage: /<command> <name>
+    description: Set warp to teleport to at your location
+  removeWarp:
+    usage: /<command> <name>
+    description: Remove warp destination
+  warpList:
+    usage: /<command>
+    description: Gets a list of all warp destinations
+  warpHelp:
+    usage: /<command>
+    description: Get help with what the commands does
